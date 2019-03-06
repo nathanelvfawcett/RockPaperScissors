@@ -1,0 +1,22 @@
+body{
+  text-align: center;
+  background-color: #1b1919;
+  color: #fff
+}
+h1{
+  margin: 3% 0%;
+}
+
+.button-section{
+  text-align: center;
+  padding: 1% 20%;
+}
+.game-btn{
+  margin: 0% 3%;
+}
+.shoot-h{
+  padding-bottom: 2%;
+}
+.play-section{
+  margin: 10% 0% 0%;
+}

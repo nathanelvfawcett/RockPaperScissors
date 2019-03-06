@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ROCK PAPER SCISSORS</title>
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <!-- bootstrap & CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- fontawesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class = "play-section">
+    <h1 id="player-game-text">Rock</h1>
+    <h1 id="pc-game-text">Paper</h1>
+    <h1 id="winner-game-text"> Scissors</h1>
+  </section>
+
+  <section class="button-section">
+  <div class = container-fluid>
+    <h1 class = "shoot-h">Shoot!</h1>
+        <button type="button" class="game-btn btn btn-outline-light btn-lg dl-btn" id="rock-button" onclick="playerSelection('Rock')"><i class="far fa-hand-rock fa-rotate-90"></i> ROCK</button>
+        <button type="button" class="game-btn btn btn-outline-light btn-lg dl-btn" id="paper-button" onclick="playerSelection('Paper')"><i class="far fa-hand-paper"></i> PAPER</button>
+        <button type="button" class="game-btn btn btn-outline-light btn-lg dl-btn" id ="scissors-button" onclick="playerSelection('Scissosrs')"><i class="far fa-hand-scissors fa-flip-horizontal"></i> SCISSORS</button>
+    </div>
+  </section>
+</body>
+<footer>
+    <!-- Script -->
+  <script src="index.js" charset="utf-8"></script>
+</footer>
+
+</html>
